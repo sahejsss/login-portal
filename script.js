@@ -1,4 +1,4 @@
-const WEBHOOK_URL = "https://karnsihota.app.n8n.cloud/webhook-test/portal"; // replace with your actual webhook
+const WEBHOOK_URL = "https://karnsihota.app.n8n.cloud/webhook/portal"; // replace with your actual webhook
 
 // Login form
 const loginForm = document.getElementById("loginForm");
@@ -45,4 +45,5 @@ if (signupForm) {
     }
   });
 }
+
 
